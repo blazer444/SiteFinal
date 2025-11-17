@@ -14,7 +14,12 @@
 
 ---
 
-## 🔗 Acesse a versão final aqui: [Projeto Final](https://projetofinal-indol.vercel.app/)
+# 🔗 Acesse a versão final aqui: [Projeto Final](https://projetofinal-indol.vercel.app/)
+ou escaneie o QR CODE
+
+<img width="248" height="195" alt="image" src="https://github.com/user-attachments/assets/657daa12-296c-4192-b8f4-128ef610944a" />
+
+
 
 ## 🖥️ Demonstração dos Projetos
 
