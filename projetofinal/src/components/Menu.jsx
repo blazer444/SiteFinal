@@ -10,7 +10,7 @@ export default function Menu() {
             <Link className="text-white font-semibold transition-all duration-200 hover:text-yellow-300 hover:scale-110" to="/tabela-dinamica">Tabela Dinâmica</Link>
             <Link className="text-white font-semibold transition-all duration-200 hover:text-yellow-300 hover:scale-110" to="/carroussel">Carroussel</Link>
             <Link className="text-white font-semibold transition-all duration-200 hover:text-yellow-300 hover:scale-110" to="/graficos">Gráficos</Link>
-            <Link className="text-white font-semibold transition-all duration-200 hover:text-yellow-300 hover:scale-110" to="/landpage">LandPage</Link>
+            <Link className="text-white font-semibold transition-all duration-200 hover:text-yellow-300 hover:scale-110" to="/landpage">Landing Page</Link>
             <Link className="text-white font-semibold transition-all duration-200 hover:text-yellow-300 hover:scale-110" to="/localizacao">Localização</Link>
         </nav>
     );
