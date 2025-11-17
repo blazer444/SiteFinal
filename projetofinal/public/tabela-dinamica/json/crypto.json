@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "nome": "Bitcoin",
+    "sigla": "BTC",
+    "fundador": "Satoshi Nakamoto"
+  },
+  {
+    "id": "2",
+    "nome": "Ethereum",
+    "sigla": "ETH",
+    "fundador": "Vitalik Buterin"
+  },
+  {
+    "id": "3",
+    "nome": "Cardano",
+    "sigla": "ADA",
+    "fundador": "Charles Hoskinson"
+  },
+  {
+    "id": "4",
+    "nome": "Solana",
+    "sigla": "SOL",
+    "fundador": "Anatoly Yakovenko"
+  },
+  {
+    "id": "5",
+    "nome": "Polkadot",
+    "sigla": "DOT",
+    "fundador": "Gavin Wood"
+  },
+  {
+    "id": "6",
+    "nome": "Binance Coin",
+    "sigla": "BNB",
+    "fundador": "Changpeng Zhao"
+  },
+  {
+    "id": "7",
+    "nome": "Litecoin",
+    "sigla": "LTC",
+    "fundador": "Charlie Lee"
+  },
+  {
+    "id": "8",
+    "nome": "Avalanche",
+    "sigla": "AVAX",
+    "fundador": "Emin Gün Sirer"
+  },
+  {
+    "id": "9",
+    "nome": "Chainlink",
+    "sigla": "LINK",
+    "fundador": "Sergey Nazarov"
+  },
+  {
+    "id": "10",
+    "nome": "Dogecoin",
+    "sigla": "DOGE",
+    "fundador": "Billy Markus / Jackson Palmer"
+  },
+  {
+    "id": "11",
+    "nome": "Shiba Inu",
+    "sigla": "SHIB",
+    "fundador": "Ryoshi"
+  },
+  {
+    "id": "12",
+    "nome": "Monero",
+    "sigla": "XMR",
+    "fundador": "Nicolas van Saberhagen"
+  },
+  {
+    "id": "13",
+    "nome": "Ripple",
+    "sigla": "XRP",
+    "fundador": "Jed McCaleb / Chris Larsen"
+  },
+  {
+    "id": "14",
+    "nome": "Tron",
+    "sigla": "TRX",
+    "fundador": "Justin Sun"
+  },
+  {
+    "id": "15",
+    "nome": "Cosmos",
+    "sigla": "ATOM",
+    "fundador": "Jae Kwon"
+  },
+  {
+    "id": "16",
+    "nome": "Stellar",
+    "sigla": "XLM",
+    "fundador": "Jed McCaleb"
+  },
+  {
+    "id": "17",
+    "nome": "VeChain",
+    "sigla": "VET",
+    "fundador": "Sunny Lu"
+  },
+  {
+    "id": "18",
+    "nome": "Near Protocol",
+    "sigla": "NEAR",
+    "fundador": "Illia Polosukhin / Alexander Skidanov"
+  },
+  {
+    "id": "19",
+    "nome": "Algorand",
+    "sigla": "ALGO",
+    "fundador": "Silvio Micali"
+  },
+  {
+    "id": "20",
+    "nome": "Aptos",
+    "sigla": "APT",
+    "fundador": "Mo Shaikh / Avery Ching"
+  },
+  {
+    "id": "21",
+    "nome": "Arbitrum",
+    "sigla": "ARB",
+    "fundador": "Offchain Labs"
+  },
+  {
+    "id": "22",
+    "nome": "Optimism",
+    "sigla": "OP",
+    "fundador": "Optimism Collective"
+  },
+  {
+    "id": "23",
+    "nome": "Injective",
+    "sigla": "INJ",
+    "fundador": "Eric Chen"
+  },
+  {
+    "id": "24",
+    "nome": "Celestia",
+    "sigla": "TIA",
+    "fundador": "Mustafa Al-Bassam"
+  },
+  {
+    "id": "25",
+    "nome": "Worldcoin",
+    "sigla": "WLD",
+    "fundador": "Sam Altman"
+  },
+  {
+    "id": "26",
+    "nome": "Aave",
+    "sigla": "AAVE",
+    "fundador": "Stani Kulechov"
+  },
+  {
+    "id": "27",
+    "nome": "Uniswap",
+    "sigla": "UNI",
+    "fundador": "Hayden Adams"
+  },
+  {
+    "id": "28",
+    "nome": "Maker",
+    "sigla": "MKR",
+    "fundador": "Rune Christensen"
+  },
+  {
+    "id": "29",
+    "nome": "Arweave",
+    "sigla": "AR",
+    "fundador": "Sam Williams"
+  },
+  {
+    "id": "30",
+    "nome": "The Graph",
+    "sigla": "GRT",
+    "fundador": "Yaniv Tal"
+  }
+]

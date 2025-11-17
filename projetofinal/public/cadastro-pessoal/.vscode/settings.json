@@ -1,0 +1,6 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.parameterHints.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+}

@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background: url(../imagem/4k-bitcoin-r2ox7zbz3wocwg5v.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #f1eded;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  text-align: left;
+  margin-top: -10px;
+  color: rgb(255, 179, 0);
+  text-shadow: 0 0 40px rgba(236, 124, 4, 0.907);
+}
+
+#thHeader {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+th {
+  padding: 6px;
+  backdrop-filter: blur(50px);
+  border-radius: 6px;
+  color: #be6104;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  width: 1200px;
+}
+
+td {
+  padding: 4px;
+  backdrop-filter: blur(50px);
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color:#dcce00;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+#tabela {
+  margin: 3vh;
+  width: 94vw;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid #f50000;
+  background: transparent;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+}
+
+#barra_pesquisa {
+  padding: 8px;
+  width: 600px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+#botao {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+#botao:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Cadastro Postal</title>
+    
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div>
+            <h1 class="titulo">CADASTRO</h1>
+        </div>
+    </header>
+
+
+    <div class="cadastro">
+        <h1 class="titulo_do_form">Cadastro Postal</h1>
+        <form>
+
+            <div class="row mb-3">
+                <div class="col-md-2">
+                    <label for="tpcorrsInput" class="form-label">Tipo de Correspondência</label>
+                    <input type="text" class="form-control" id="tpcorrsInput" placeholder="Carta" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="nomeInput" class="form-label">Nome do Resposável pelo envio</label>
+                    <input type="text" class="form-control" id="nomeInput" placeholder="Nome Completo">
+                </div>
+                <div class="col-md-3">
+                    <label for="dtCadastroInput" class="form-label">Dt. Do Cadastro</label>
+                    <input type="date" class="form-control" id="dtCadastroInput">
+                </div>
+            </div>
+
+
+            <div class="row mb-3">
+                <div class="col-md-2">
+                    <label for="cepInput" class="form-label">CEP</label>
+                    <input type="text" class="form-control" id="cepInput" placeholder="00000-000">
+                </div>
+                <div class="col-md-2">
+                    <label for="RuaInput" class="form-label">Logradrouro</label>
+                    <input type="text" class="form-control" id="codigorastrInput" placeholder="Digite a Rua">
+                </div>
+                <div class="col-md-2">
+                    <label for="bairroInput" class="form-label">Bairro</label>
+                    <input type="text" class="form-control" id="bairroInput" placeholder="Digite o Bairro">
+                </div>
+                <div class="col-md-2">
+                    <div class="form-label">
+                        <label for="estadoInput" class="form-label">Estado</label>
+                        <select id="estadoInput" class="form-select">
+                            <option>AC</option>
+                            <option>AL</option>
+                            <option>AP</option>
+                            <option>AM</option>
+                            <option>BA</option>
+                            <option>CE</option>
+                            <option>DF</option>
+                            <option>ES</option>
+                            <option>GO</option>
+                            <option>MA</option>
+                            <option">MT</option>
+                            <option>MS</option>
+                            <option>MG</option>
+                            <option>PA</option>
+                            <option>PB</option>
+                            <option>PR</option>
+                            <option>PE</option>
+                            <option>PI</option>
+                            <option>RJ</option>
+                            <option>RN</option>
+                            <option>RS</option>
+                            <option>RO</option>
+                            <option>RR</option>
+                            <option>SC</option>
+                            <option>SP</option>
+                            <option>SE</option>
+                            <option>TO</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <label for="cidadeInput" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="cidadeInput" placeholder="Digite a Cidade">
+                </div>
+                <div class="col-md-2">
+                    <label for="paisInput" class="form-label">País</label>
+                    <input type="text" class="form-control" id="paisInput" placeholder="Digite o País">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-2">
+                    <label for="codigorastrInput" class="form-label">Código de Rastreio</label>
+                    <input type="text" class="form-control" id="codigorastrInput" placeholder="AA000000000BR">
+                </div>
+                <div class="col-md-2">
+                    <label for="dtEnvioInput" class="form-label">Dt. Do Envio</label>
+                    <input type="date" class="form-control" id="dtEnvioInput">
+                </div>
+                <div class="col-md-2">
+                    <label for="pesoInput" class="form-label">Peso (Kg)</label>
+                    <input type="text" class="form-control" id="pesoInput" placeholder="0,00 kg">
+                </div>
+                <div class="col-md-2">
+                    <label for="valordecInput" class="form-label">Valor Declarado (R$)</label>
+                    <input type="text" class="form-control" id="valordecInput" placeholder="R$ 0,00">
+                </div>
+                <div class="col-md-2">
+                    <label for="servicoInput" class="form-label">Serviço</label>
+                    <input type="text" class="form-control" id="servicoInput" placeholder="SEDEX">
+            </div>
+                <div class="mb-3">
+                    <label for="observacao" class="form-label">Observações</label>
+                    <textarea class="form-control" id="observacao" rows="4" placeholder="Digite suas observações aqui..."></textarea>
+                </div>
+        </form>
+    </div>
+    </div>
+    </form>
+    </div>
+
+
+
+    <h>
+        <br>
+        <div display="inline" class="col-md-12 text-center">
+            <button type="button" onclick="salvar()" class="btn btn-outline-light">Salvar</button>
+            <button type="button" onclick="limpar()" class="btn btn-outline-warning">Limpar</button>
+        </div>
+
+
+
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+        <script src="./script/script.js"></script>
+</body>
+
+</html>

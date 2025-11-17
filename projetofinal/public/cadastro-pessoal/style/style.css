@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+  font-family: 'FonteLogo';
+  src: url("../fonte/GoogleSansCode-Regular.ttf");
+}
+
+
+/* HEADER DA PÁGINA */
+.cabecalho {
+    margin: 15px 250px 0px 250px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: transparent;;
+    border-radius: 20px;
+    backdrop-filter:  blur(10px);
+    box-shadow: 0px 0px 10px rgba(53, 53, 53, 0.75);
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'FonteLogo' sans-serif;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.cabecalho:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+}
+
+/* MENU DE NAVEGAÇÃO */
+.menu ul {
+    display: flex;        
+    list-style: none;     
+    margin: 25px 0 0 120px;
+    padding: 0;
+    gap: 20px;              
+}
+
+.menu ul li a {
+    text-decoration: none;  
+    color: #fff;          
+    padding: 10px 20px;     
+    border-radius: 8px;     
+    background: transparent;
+    font-family: 'FonteLogo', sans-serif;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+}
+
+
+/* CORPO DA TABELA  */
+
+.cadastro {
+    margin: 15px 100px 30px 100px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter:  blur(30px);
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0px 0px 20px rgba(213, 209, 209, 0.8);
+    transition: 0.5s ease;
+}
+
+.titulo_do_form {
+    font-family: 'FonteLogo', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    text-decoration:  bold;
+}
+
+.cadastro:hover {
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.9);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-family: 'FonteLogo', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background: url(../imagens/pexels-jplenio-1103970.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}

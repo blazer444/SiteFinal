@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@font-face {
+  font-family: 'FonteLogo';
+  src: url("../fonte/ProstoOne-Regular.ttf");
+}
+
+body {
+  font-family: 'FonteLogo', sans-serif;
+  background-color: #202021;
+  color: #ffd700;
+  text-align: center;
+  padding: 1vw;
+  transition: .5s;
+}
+
+/* HEADER */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 2px solid #333;
+    height: 10vh;
+    background-color: #202021;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    transition: .5s;
+}
+
+.logo-site-1 {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.titulo {
+  font-family: 'FonteLogo';
+  font-size: 24px;
+  margin: 0;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.titulo:hover {
+  color: rgb(251, 255, 3);
+  transition: 0.3s ease;
+  text-shadow: 0 0 8px rgb(251, 255, 3);
+}
+
+
+/* MENU */
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  margin: 2px;
+  gap: 25px;
+}
+
+.menu li {
+  position: relative;
+  font-weight: bold;
+}
+
+.menu a {
+  font-family: 'FonteLogo';
+  text-decoration: none;
+  color: yellow;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.menu a:hover {
+  color: #ff0000;
+  text-shadow: 0 0 8px #ff0000;
+}
+
+/* DUVIDAS CRYPTO */
+
+.titulo-duvida {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  font-family: 'FonteLogo';
+  color:#f1e702;
+  transition: 0.3s ease;
+}
+
+.titulo-duvida:hover {
+  color:#f1e702;
+  text-shadow: 0 0 8px #f1e702;
+  transition: 0.3s ease;
+}
+
+/* CAIXA 1 */
+
+.pergunta {
+  background-color: rgb(238, 255, 0);
+  display: block;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.titulo-pergunta {
+  color:#ff0000;
+  font-family: 'FonteLogo';
+  font-size: medium;
+  padding: 14px;
+  text-shadow: 0 0 8px #ff0000
+}
+
+.caixa-resposta {
+  background-color: #5b5959;
+  border-bottom: 0px 0px 0px 0px solid;
+  box-shadow: 0px 0px 0px 2px rgba(59, 58, 58, 0.8);
+  border-radius: 20px;
+  margin: 2px 0 30px;
+  padding: 20px;
+}
+
+.paragrafo {
+  font-family: 'FonteLogo';
+  color: #ffffff;
+}
+
+b {
+  color: #ff0000;
+  font-family: 'FonteLogo';
+  transition: 0.3s ease;
+  text-shadow: 0 0 10px #ff0000;
+}
+
+.negrito-cor {
+  color: #ffd700;
+  font-family: 'FonteLogo';
+  text-shadow: 0 0 10px #ffd700;
+}
+
+/* RODAPE */
+
+.rodape {
+  text-align: center;
+  font-style: italic;
+  color: #f1e702;
+  background-color: #202021;
+  margin: 30px 0px -30px 0;
+  padding: 20px;
+  border-bottom: 0px 0px 0px 2px solid;
+  box-shadow: 0px 0px 0px 2px rgba(59, 58, 58, 0.8);
+  transition: .5s;
+}
+
+.cor-rodape {
+  color: #f1e702;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.cor-rodape:hover{
+  color: #ff0000;
+  transition: 0.3s ease;
+  text-shadow: 0 0 8px #ff0000;
+  text-decoration: none;
+}
